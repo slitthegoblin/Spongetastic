@@ -1,0 +1,11 @@
+Spongetastic/[Ll]ibrary/
+SpongetasticGame/[Tt]emp/
+SpongetasticGame/[Oo]bj/
+SpongetasticGame/[Bb]uild/
+SpongetasticGame/[Bb]uilds/
+SpongetasticGame/[Ll]ogs/
+
+!SpongetasticGame/[Aa]ssets/**/*.meta
+
+Spongetastic/[Aa]ssets/TextMesh*Pro/
+SpongetasticGame/[Mm]emoryCaptures/
