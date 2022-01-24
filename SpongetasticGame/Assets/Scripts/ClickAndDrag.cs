@@ -4,28 +4,43 @@ using UnityEngine;
 
 public class ClickAndDrag : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    public Vector2 mousePosition;
+    GameObject draggedObject;
+    Vector2 startPosition;
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
-            //Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            //RaycastHit hit;
             RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
-            Debug.Log("This is running");
-            if (hit)
+            if (hit.collider != null)
             {
-                Debug.Log("Hit");
                 if (hit.transform.gameObject.CompareTag ("Draggable"))
                 {
-                    Debug.Log("This is a draggable object");
+                    startPosition = hit.transform.gameObject.transform.position;
+                    draggedObject = hit.transform.gameObject;
                 }
+            }
+        }
+
+        if (Input.GetMouseButton(0))
+        {
+            if (draggedObject != null)
+            {
+                mousePosition = Input.mousePosition;
+                mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
+                draggedObject.transform.gameObject.transform.position = mousePosition;
+            }
+        }
+
+        else if (Input.GetMouseButtonUp(0))
+        {
+            if (draggedObject != null)
+            {
+                if (draggedObject.tag == "Draggable")
+                {
+                    draggedObject.transform.gameObject.transform.position = startPosition;
+                }
+                draggedObject = null;
             }
         }
         
