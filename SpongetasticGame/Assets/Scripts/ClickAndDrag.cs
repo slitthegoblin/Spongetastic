@@ -4,9 +4,15 @@ using UnityEngine;
 
 public class ClickAndDrag : MonoBehaviour
 {
-    public Vector2 mousePosition;
+    public Vector3 mousePosition;
     GameObject draggedObject;
-    Vector2 startPosition;
+    Vector3 startPosition;
+    public static ClickAndDrag clickdrag;
+
+    void Start()
+    {
+        clickdrag = this;
+    }
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
@@ -26,9 +32,14 @@ public class ClickAndDrag : MonoBehaviour
         {
             if (draggedObject != null)
             {
-                mousePosition = Input.mousePosition;
-                mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
-                draggedObject.transform.gameObject.transform.position = mousePosition;
+                if (draggedObject.tag == "Draggable")
+                {
+                    mousePosition.x = Input.mousePosition.x;
+                    mousePosition.y = Input.mousePosition.y;
+                    mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
+                    mousePosition.z = startPosition.z;
+                    draggedObject.transform.gameObject.transform.position = mousePosition;
+                }
             }
         }
 
