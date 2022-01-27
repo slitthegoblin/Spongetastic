@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\ClickAndDrag.cs" />
     <Compile Include="Assets\Scripts\EnterGoal.cs" />
+    <Compile Include="Assets\Scripts\Yasemin\MainMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
