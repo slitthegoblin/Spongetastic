@@ -8,12 +8,13 @@ public class MoveObjects : MonoBehaviour
     GameObject clickedObject;
     [SerializeField] float objectX;
     [SerializeField] float objectY;
+    [SerializeField] float objectZ;
     Vector3 movePosition;
 
     private void Start()
     {
         startPosition = this.gameObject.transform.position;
-        movePosition = new Vector3(objectX, objectY, this.gameObject.transform.position.z);
+        movePosition = new Vector3(objectX, objectY, objectZ);
     }
     private void OnMouseDown()
     {
