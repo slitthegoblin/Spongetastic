@@ -57,9 +57,9 @@
     <Compile Include="Assets\Scripts\Chloe\ClickAndDrag.cs" />
     <Compile Include="Assets\Scripts\Yasemin\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Chloe\MoveObjects.cs" />
+    <Compile Include="Assets\Scripts\Yasemin\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Chloe\EnterGoal.cs" />
     <Compile Include="Assets\Scripts\Chloe\LevelScript.cs" />
-    <Compile Include="Assets\Scripts\Yasemin\PauseMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
