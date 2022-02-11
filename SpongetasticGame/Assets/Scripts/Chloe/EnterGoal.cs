@@ -20,6 +20,10 @@ public class EnterGoal : MonoBehaviour
                     this.gameObject.transform.position = new Vector3(finalX, finalY, this.gameObject.transform.position.z);
                 }
             }
+            if (this.gameObject.tag != "Untagged")
+            {
+                ShowHideObject.ShowHide.RunCoroutine();
+            }
         }
     }
 
