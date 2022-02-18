@@ -8,6 +8,8 @@ TagManager:
   - Goal
   - Moveable
   - Hideable
+  - Backdrop
+  - Dragging
   layers:
   - Default
   - TransparentFX

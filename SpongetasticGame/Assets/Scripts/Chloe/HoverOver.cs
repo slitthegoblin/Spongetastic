@@ -7,14 +7,38 @@ public class HoverOver : MonoBehaviour
     [SerializeField] GameObject UIToHide;
     void Start()
     {
-        UIToHide.SetActive(false);
+        StartCoroutine(ToggleOff());
+    }
+
+    void update()
+    {
+        if (this.gameObject.tag == "Dragging")
+        {
+            ToggleOff();
+        }
     }
     private void OnMouseEnter()
     {
-        StartCoroutine(ToggleOn());
+        if (this.gameObject.tag != "Dragging")
+        {
+            if (this.gameObject.tag != "Draggable")
+            {
+                StartCoroutine(ToggleOff());
+            }
+            else
+            {
+                StartCoroutine(ToggleOn());
+            }
+        }
+
     }
 
     private void OnMouseExit()
+    {
+        StartCoroutine(ToggleOff());
+    }
+
+    private void OnMouseDown()
     {
         StartCoroutine(ToggleOff());
     }
@@ -29,5 +53,6 @@ public class HoverOver : MonoBehaviour
     {
         UIToHide.SetActive(false);
         yield return new WaitForSeconds(0.1f);
+
     }
 }

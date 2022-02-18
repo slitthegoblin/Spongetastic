@@ -22,6 +22,7 @@ public class ClickAndDrag : MonoBehaviour
             {
                 if (hit.transform.gameObject.CompareTag ("Draggable"))
                 {
+                    hit.transform.tag= "Dragging";
                     startPosition = hit.transform.gameObject.transform.position;
                     draggedObject = hit.transform.gameObject;
                 }
@@ -32,7 +33,7 @@ public class ClickAndDrag : MonoBehaviour
         {
             if (draggedObject != null)
             {
-                if (draggedObject.tag == "Draggable")
+                if (draggedObject.tag == "Dragging")
                 {
                     mousePosition.x = Input.mousePosition.x;
                     mousePosition.y = Input.mousePosition.y;
@@ -47,9 +48,10 @@ public class ClickAndDrag : MonoBehaviour
         {
             if (draggedObject != null)
             {
-                if (draggedObject.tag == "Draggable")
+                if (draggedObject.tag == "Dragging")
                 {
                     draggedObject.transform.gameObject.transform.position = startPosition;
+                    draggedObject.tag = "Draggable";
                 }
                 draggedObject = null;
             }
