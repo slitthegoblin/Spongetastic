@@ -13,26 +13,16 @@ public class LevelScript : MonoBehaviour
     void Start()
     {
         LS = this;
-        //Scene currentScene = SceneManager.GetActiveScene();
-        //currentSceneName = currentScene.name;
     }
-    //void Update()
-    //{
-    //    CheckLevel();
-        //Debug.Log(playerLevel);
-    //}
 
-    //void CheckLevel()
-    //{
-    //    char[] split = currentSceneName.ToCharArray();
-    //    foreach (char i in split)
-    //    {
-    //        //Debug.Log(i);
-    //        if (char.IsDigit(i))
-    //        {
-    //            int intValue = (int)Char.GetNumericValue(i);
-    //            playerLevel = intValue;
-    //        }
-    //    }
-    //}
+    public void SetLevel(int levelNumber)
+    {
+        playerLevel = levelNumber;
+    }
+
+    public void IncreaseLevel()
+    {
+        playerLevel = playerLevel + 1;
+    }
+   
 }

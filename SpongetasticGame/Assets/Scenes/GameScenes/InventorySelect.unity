@@ -139,6 +139,7 @@ GameObject:
   - component: {fileID: 3844847}
   - component: {fileID: 3844846}
   - component: {fileID: 3844845}
+  - component: {fileID: 3844851}
   m_Layer: 0
   m_Name: Hoover
   m_TagString: Draggable
@@ -349,6 +350,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &3844851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3844842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 883b1f0dffc93094da577146db19a774, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: ShoppingTrolley
+  finalX: -1.16
+  finalY: -5.44
+  allowedLevels: 01000000
 --- !u!1 &71562488
 GameObject:
   m_ObjectHideFlags: 0
@@ -705,6 +722,7 @@ GameObject:
   - component: {fileID: 487397394}
   - component: {fileID: 487397393}
   - component: {fileID: 487397392}
+  - component: {fileID: 487397395}
   m_Layer: 0
   m_Name: Spongetastic_Mop
   m_TagString: Draggable
@@ -787,7 +805,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.006950736, y: -0.341752}
@@ -837,6 +855,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   UIToHide: {fileID: 579325643}
+--- !u!114 &487397395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 487397389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 883b1f0dffc93094da577146db19a774, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: ShoppingTrolley
+  finalX: 1.43
+  finalY: -3.99
+  allowedLevels: 01000000
 --- !u!1 &494736239
 GameObject:
   m_ObjectHideFlags: 0
@@ -2747,6 +2781,7 @@ GameObject:
   - component: {fileID: 1328060997}
   - component: {fileID: 1328060996}
   - component: {fileID: 1328060995}
+  - component: {fileID: 1328060998}
   m_Layer: 0
   m_Name: SpongetasticSponge
   m_TagString: Draggable
@@ -2863,7 +2898,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.1007514, y: 0.14240456}
@@ -2879,6 +2914,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.798497, y: 3.1031857}
   m_EdgeRadius: 0
+--- !u!114 &1328060998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1328060992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 883b1f0dffc93094da577146db19a774, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectName: ShoppingTrolley
+  finalX: -0.49
+  finalY: -2.79
+  allowedLevels: 01000000
 --- !u!1 &1379638745
 GameObject:
   m_ObjectHideFlags: 0
