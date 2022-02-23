@@ -624,7 +624,7 @@ MonoBehaviour:
   objectName: Cart
   finalX: 1.3
   finalY: -2.08
-  allowedLevels: 01000000
+  allowedLevels: 00000000
 --- !u!50 &419268276
 Rigidbody2D:
   serializedVersion: 4
