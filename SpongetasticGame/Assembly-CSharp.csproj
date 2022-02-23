@@ -57,13 +57,17 @@
     <Compile Include="Assets\Scripts\Chloe\HoverOver.cs" />
     <Compile Include="Assets\Scripts\Chloe\ClickAndDrag.cs" />
     <Compile Include="Assets\Scripts\Yasemin\AudioVisuals.cs" />
+    <Compile Include="Assets\Scripts\Louis\Cleanign mechanics\Moping.cs" />
     <Compile Include="Assets\Scripts\Chloe\ClickToHide.cs" />
+    <Compile Include="Assets\Scripts\Louis\Cleanign mechanics\Wiping.cs" />
     <Compile Include="Assets\Scripts\Yasemin\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\Louis\Cleanign mechanics\Cleaning.cs" />
     <Compile Include="Assets\Scripts\Chloe\MoveObjects.cs" />
     <Compile Include="Assets\Scripts\Yasemin\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Chloe\EnterGoal.cs" />
     <Compile Include="Assets\Scripts\Chloe\ShowHideObject.cs" />
     <Compile Include="Assets\Scripts\Chloe\LevelScript.cs" />
+    <Compile Include="Assets\Scripts\Louis\Cleanign mechanics\Sweeping.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
