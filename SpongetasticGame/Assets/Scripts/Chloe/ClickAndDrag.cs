@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ClickAndDrag : MonoBehaviour
 {
+    [SerializeField] private AudioSource source;
     public Vector3 mousePosition;
     GameObject draggedObject;
     Vector3 startPosition;
@@ -22,6 +23,7 @@ public class ClickAndDrag : MonoBehaviour
             {
                 if (hit.transform.gameObject.CompareTag ("Draggable"))
                 {
+                    source.Play();
                     hit.transform.tag= "Dragging";
                     startPosition = hit.transform.gameObject.transform.position;
                     draggedObject = hit.transform.gameObject;
