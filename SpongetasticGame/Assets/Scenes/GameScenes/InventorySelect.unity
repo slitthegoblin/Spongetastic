@@ -1182,7 +1182,7 @@ MonoBehaviour:
   objectName: ShoppingTrolley
   finalX: -1.89
   finalY: -4.44
-  allowedLevels: 01000000
+  allowedLevels: 00000000
 --- !u!114 &494736243
 MonoBehaviour:
   m_ObjectHideFlags: 0
