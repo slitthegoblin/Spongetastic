@@ -53,6 +53,7 @@
     <UnityVersion>2020.3.19f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Chloe\ChangeScene.cs" />
     <Compile Include="Assets\Scripts\Louis\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Chloe\HoverOver.cs" />
     <Compile Include="Assets\Scripts\Chloe\ClickAndDrag.cs" />
