@@ -61,6 +61,7 @@
     <Compile Include="Assets\Scripts\Louis\Cleanign mechanics\Moping.cs" />
     <Compile Include="Assets\Scripts\Chloe\ClickToHide.cs" />
     <Compile Include="Assets\Scripts\Louis\Cleanign mechanics\Wiping.cs" />
+    <Compile Include="Assets\Scripts\Chloe and Louis\EnterAndExit.cs" />
     <Compile Include="Assets\Scripts\Yasemin\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Louis\Cleanign mechanics\Cleaning.cs" />
     <Compile Include="Assets\Scripts\Chloe\MoveObjects.cs" />
