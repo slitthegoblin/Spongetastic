@@ -47,7 +47,8 @@ public class EnterAndExit : MonoBehaviour
         }
          else
         {
-            if (currentLevel == 0 || currentLevel == levelNumber) {
+            if (currentLevel == levelNumber) {
+                //Debug.Log("Player Hit");
                 SceneManager.LoadScene(sLevelToLoad);
             }
         }
