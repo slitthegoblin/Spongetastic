@@ -23,4 +23,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameScenes/InventorySelect.unity
     guid: b9596ca6395c9f64b9b8a66cfde1544b
+  - enabled: 1
+    path: Assets/Scenes/GameScenes/BathroomCloseUp.unity
+    guid: 72126fcfeecfbb742944dc5e8bdada4c
+  - enabled: 1
+    path: Assets/Scenes/GameScenes/Bedroom.unity
+    guid: 6fe8149ad9ba5cf40a38bad66d8d68c6
+  - enabled: 1
+    path: Assets/Scenes/GameScenes/Kitchen.unity
+    guid: 293480dbe030cb94ea362cab0ece0871
+  - enabled: 1
+    path: Assets/Scenes/GameScenes/Livingroom.unity
+    guid: d6f0a5367c8ab2f41a21f7bc1c7c0c2e
+  - enabled: 1
+    path: Assets/Scenes/GameScenes/StudyRoom.unity
+    guid: 7db3d7506a2585147b7eed85930936ed
   m_configObjects: {}
