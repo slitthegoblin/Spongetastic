@@ -60,6 +60,7 @@
     <Compile Include="Assets\Scripts\Yasemin\AudioVisuals.cs" />
     <Compile Include="Assets\Scripts\Louis\Cleanign mechanics\Moping.cs" />
     <Compile Include="Assets\Scripts\Chloe\ClickToHide.cs" />
+    <Compile Include="Assets\Scripts\Yasemin\OptionsMenu.cs" />
     <Compile Include="Assets\Scripts\Louis\Cleanign mechanics\Wiping.cs" />
     <Compile Include="Assets\Scripts\Chloe and Louis\EnterAndExit.cs" />
     <Compile Include="Assets\Scripts\Yasemin\MainMenu.cs" />
@@ -70,7 +71,7 @@
     <Compile Include="Assets\Scripts\Chloe\ShowHideObject.cs" />
     <Compile Include="Assets\Scripts\Chloe\LevelScript.cs" />
     <Compile Include="Assets\Scripts\Louis\Cleanign mechanics\Sweeping.cs" />
-    <Compile Include="Assets\Scripts\Yasemin\OptionsMenu.cs" />
+    <Compile Include="Assets\Scripts\Yasemin\AudioManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
