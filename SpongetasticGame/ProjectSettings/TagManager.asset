@@ -11,6 +11,8 @@ TagManager:
   - Backdrop
   - Dragging
   - Dirt
+  - BathroomDirt
+  - BathroomWater
   layers:
   - Default
   - TransparentFX

@@ -4,13 +4,19 @@ using UnityEngine;
 
 public class Cleaning : MonoBehaviour
 {
+    SpriteRenderer sprite;
+    [SerializeField] string dirtObject;
 
-    
-    void OnCollisionEnter2D (Collision2D col)
+    void OnTriggerEnter2D(Collider2D col)
     {
-        if(col.gameObject.name == "Dirt")
+        if (col.gameObject.tag == dirtObject)
         {
-            Destroy (col.gameObject);
+            sprite = col.GetComponent<SpriteRenderer>();
+            sprite.color = new Color(sprite.color.r, sprite.color.g, sprite.color.b, sprite.color.a - 0.2f);
+        }
+        if (sprite.color.a < 0)
+        {
+            Destroy(col.gameObject);
         }
     }
 
