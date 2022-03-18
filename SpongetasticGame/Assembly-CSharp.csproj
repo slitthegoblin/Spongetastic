@@ -53,6 +53,7 @@
     <UnityVersion>2020.3.19f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Yasemin\SoundManager.cs" />
     <Compile Include="Assets\Scripts\Chloe\ChangeScene.cs" />
     <Compile Include="Assets\Scripts\Louis\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Chloe\HoverOver.cs" />
@@ -63,6 +64,7 @@
     <Compile Include="Assets\Scripts\Yasemin\OptionsMenu.cs" />
     <Compile Include="Assets\Scripts\Louis\Cleanign mechanics\Wiping.cs" />
     <Compile Include="Assets\Scripts\Chloe and Louis\EnterAndExit.cs" />
+    <Compile Include="Assets\Scripts\Yasemin\BackgroundMusic.cs" />
     <Compile Include="Assets\Scripts\Yasemin\AudioManager.cs" />
     <Compile Include="Assets\Scripts\Yasemin\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Louis\Cleanign mechanics\Cleaning.cs" />
