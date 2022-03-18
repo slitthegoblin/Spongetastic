@@ -72,8 +72,6 @@
     <Compile Include="Assets\Scripts\Chloe\ShowHideObject.cs" />
     <Compile Include="Assets\Scripts\Chloe\LevelScript.cs" />
     <Compile Include="Assets\Scripts\Louis\Cleanign mechanics\Sweeping.cs" />
-    <Compile Include="Assets\Scripts\Yasemin\BackgroundMusic.cs" />
-    <Compile Include="Assets\Scripts\Yasemin\SoundManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
