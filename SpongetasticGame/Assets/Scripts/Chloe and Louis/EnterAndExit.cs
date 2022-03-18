@@ -51,6 +51,11 @@ public class EnterAndExit : MonoBehaviour
                 //Debug.Log("Player Hit");
                 SceneManager.LoadScene(sLevelToLoad);
             }
+
+            if (levelNumber == 0)
+            {
+                SceneManager.LoadScene(sLevelToLoad);
+            }
         }
     }
 }
