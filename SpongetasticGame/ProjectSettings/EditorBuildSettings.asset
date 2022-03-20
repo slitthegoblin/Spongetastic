@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/MainMenuScenes/MainMenuScene.unity
-    guid: 268bc1c7e20372d4b824ee31a76e3908
+    path: Assets/Scenes/MainMenuScenes/Menu.unity
+    guid: f848ac29ef192a3498f996b09ce2feca
   - enabled: 1
     path: Assets/Scenes/GameScenes/TopDownMap.unity
     guid: 1973482baee8b0b46b024b946777e05a
