@@ -72,6 +72,8 @@
     <Compile Include="Assets\Scripts\Louis\Cleanign mechanics\Cleaning.cs" />
     <Compile Include="Assets\Scripts\Yasemin\SoundManagement.cs" />
     <Compile Include="Assets\Scripts\Chloe\MoveObjects.cs" />
+    <Compile Include="Assets\Scripts\Yasemin\BubbleBlinkFirst.cs" />
+    <Compile Include="Assets\Scripts\Chloe\ClothSpriteSwitch.cs" />
     <Compile Include="Assets\Scripts\Yasemin\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Chloe\EnterGoal.cs" />
     <Compile Include="Assets\Scripts\Chloe\ShowHideObject.cs" />
@@ -79,11 +81,7 @@
     <Compile Include="Assets\Scripts\Yasemin\MenuSystem.cs" />
     <Compile Include="Assets\Scripts\Chloe\LevelScript.cs" />
     <Compile Include="Assets\Scripts\Louis\Cleanign mechanics\Sweeping.cs" />
-<<<<<<< HEAD
-    <Compile Include="Assets\Scripts\Yasemin\BubbleBlinkFirst.cs" />
-=======
-    <Compile Include="Assets\Scripts\Chloe\ClothSpriteSwitch.cs" />
->>>>>>> dc80311e2a3ebd6c27ed1c53d1318000f2d3095f
+    <Compile Include="Assets\FlashBubble.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

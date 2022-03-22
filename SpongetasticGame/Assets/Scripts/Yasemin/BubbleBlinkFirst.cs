@@ -5,16 +5,21 @@ using System;
 
 public class BubbleBlinkFirst : MonoBehaviour
 {
-    public GameObject guiBubble;
-    void Start()
+    [SerializeField] GameObject guiBubble;
+
+    void Update()
     {
         StartCoroutine(ShowAndHide());
     }
 
     IEnumerator ShowAndHide()
     {
-            guiBubble.SetActive(true);
-            yield return new WaitForSeconds(5);
-            guiBubble.SetActive(false);
+        guiBubble.SetActive(true);
+        yield return new WaitForSeconds(4);
+        Debug.Log("true");
+        guiBubble.SetActive(false);
+        yield return new WaitForSeconds(4);
+        Debug.Log("false");
+
     }
 }
