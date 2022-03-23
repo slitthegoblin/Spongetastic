@@ -6,7 +6,7 @@ using System;
 
 public class LevelScript : MonoBehaviour
 {
-    public int playerLevel;
+    public static int playerLevel = 1;
     //string currentSceneName;
     public static LevelScript LS;
 

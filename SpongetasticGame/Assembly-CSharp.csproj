@@ -82,6 +82,9 @@
     <Compile Include="Assets\Scripts\Yasemin\MenuSystem.cs" />
     <Compile Include="Assets\Scripts\Chloe\LevelScript.cs" />
     <Compile Include="Assets\Scripts\Louis\Cleanign mechanics\Sweeping.cs" />
+    <Compile Include="Assets\Scripts\Chloe\LevelUp.cs" />
+    <Compile Include="Assets\Scripts\Chloe\DeleteBubbles.cs" />
+    <Compile Include="Assets\Scripts\Chloe\SwitchSprite.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

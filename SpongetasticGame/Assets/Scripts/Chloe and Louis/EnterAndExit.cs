@@ -13,7 +13,7 @@ public class EnterAndExit : MonoBehaviour
     public bool useIntegerToLoadLevel = false;
 
     [SerializeField] int levelNumber;
-    int currentLevel = LevelScript.LS.playerLevel;
+    int currentLevel = LevelScript.playerLevel;
 
     // Start is called before the first frame update
     void Start()
@@ -39,7 +39,7 @@ public class EnterAndExit : MonoBehaviour
 
     public void LoadScene()
     {
-        currentLevel = LevelScript.LS.playerLevel;
+        currentLevel = LevelScript.playerLevel;
 
         if (useIntegerToLoadLevel)
         {

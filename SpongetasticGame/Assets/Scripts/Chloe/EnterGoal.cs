@@ -14,7 +14,7 @@ public class EnterGoal : MonoBehaviour
         {
             foreach (int i in allowedLevels)
             {
-                if (i == LevelScript.LS.playerLevel)
+                if (i == LevelScript.playerLevel)
                 {
                     this.gameObject.tag = "Untagged";
                     this.gameObject.transform.position = new Vector3(finalX, finalY, this.gameObject.transform.position.z);
