@@ -15,6 +15,7 @@ TagManager:
   - BathroomWater
   - Handprint
   - Mud
+  - KitchenBubbles
   layers:
   - Default
   - TransparentFX
