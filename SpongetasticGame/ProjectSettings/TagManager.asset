@@ -16,6 +16,7 @@ TagManager:
   - Handprint
   - Mud
   - KitchenBubbles
+  - Dust
   layers:
   - Default
   - TransparentFX

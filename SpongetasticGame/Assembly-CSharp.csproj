@@ -57,6 +57,7 @@
     <Compile Include="Assets\Scripts\Chloe\ChangeScene.cs" />
     <Compile Include="Assets\Scripts\Louis\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Chloe\HoverOver.cs" />
+    <Compile Include="Assets\Scripts\Chloe\SwitchSprite.cs" />
     <Compile Include="Assets\Scripts\Chloe\BinScript.cs" />
     <Compile Include="Assets\Scripts\Chloe\ClickAndDrag.cs" />
     <Compile Include="Assets\Scripts\Yasemin\AudioVisuals.cs" />
@@ -65,9 +66,11 @@
     <Compile Include="Assets\Scripts\Chloe\ClickToHide.cs" />
     <Compile Include="Assets\FlashBubble.cs" />
     <Compile Include="Assets\Scripts\Yasemin\OptionsMenu.cs" />
+    <Compile Include="Assets\Scripts\Chloe\LevelUp.cs" />
     <Compile Include="Assets\Scripts\Louis\Cleanign mechanics\Wiping.cs" />
     <Compile Include="Assets\Scripts\Chloe and Louis\EnterAndExit.cs" />
     <Compile Include="Assets\Scripts\Yasemin\BackgroundMusic.cs" />
+    <Compile Include="Assets\Scripts\Chloe\DeleteBubbles.cs" />
     <Compile Include="Assets\Scripts\Yasemin\AudioManager.cs" />
     <Compile Include="Assets\Scripts\Yasemin\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Louis\Cleanign mechanics\Cleaning.cs" />
@@ -82,9 +85,7 @@
     <Compile Include="Assets\Scripts\Yasemin\MenuSystem.cs" />
     <Compile Include="Assets\Scripts\Chloe\LevelScript.cs" />
     <Compile Include="Assets\Scripts\Louis\Cleanign mechanics\Sweeping.cs" />
-    <Compile Include="Assets\Scripts\Chloe\LevelUp.cs" />
-    <Compile Include="Assets\Scripts\Chloe\DeleteBubbles.cs" />
-    <Compile Include="Assets\Scripts\Chloe\SwitchSprite.cs" />
+    <Compile Include="Assets\Scripts\Chloe\RemoveParent.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
