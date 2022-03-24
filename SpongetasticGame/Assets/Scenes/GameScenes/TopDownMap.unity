@@ -516,7 +516,7 @@ MonoBehaviour:
   iLevelToLoad: 0
   sLevelToLoad: StudyRoom
   useIntegerToLoadLevel: 0
-  levelNumber: 4
+  levelNumber: 5
 --- !u!1 &290405987
 GameObject:
   m_ObjectHideFlags: 0
@@ -546,7 +546,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57025beb5fa81ad4baeac67f4edeada0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerLevel: 1
 --- !u!4 &290405989
 Transform:
   m_ObjectHideFlags: 0
@@ -1529,7 +1528,7 @@ MonoBehaviour:
   iLevelToLoad: 0
   sLevelToLoad: Livingroom
   useIntegerToLoadLevel: 0
-  levelNumber: 5
+  levelNumber: 4
 --- !u!1 &1170666114
 GameObject:
   m_ObjectHideFlags: 0
