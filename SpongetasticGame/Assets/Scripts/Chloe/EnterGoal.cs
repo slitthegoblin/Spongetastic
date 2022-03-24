@@ -7,7 +7,13 @@ public class EnterGoal : MonoBehaviour
     [SerializeField] string objectName;
     [SerializeField] float finalX;
     [SerializeField] float finalY;
-    [SerializeField] int[] allowedLevels;
+    public int[] allowedLevels;
+    public static EnterGoal EG;
+
+    private void Start()
+    {
+        EG = this;
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.name == objectName)

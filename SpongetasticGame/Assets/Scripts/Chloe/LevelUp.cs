@@ -9,6 +9,7 @@ public class LevelUp : MonoBehaviour
         if (this.transform.childCount == 0)
         {
             LevelScript.LS.IncreaseLevel();
+            DetectInventory.itemsGot = false;
             Destroy(this.gameObject);
         }
         

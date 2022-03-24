@@ -48,8 +48,9 @@ public class EnterAndExit : MonoBehaviour
          else
         {
             if (currentLevel == levelNumber) {
-                //Debug.Log("Player Hit");
-                SceneManager.LoadScene(sLevelToLoad);
+                if (DetectInventory.itemsGot == true) {
+                    SceneManager.LoadScene(sLevelToLoad);
+                }
             }
 
             if (levelNumber == 0)
