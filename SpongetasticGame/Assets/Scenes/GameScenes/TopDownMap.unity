@@ -909,9 +909,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3556427661703631013, guid: c846a5442d16d6e48a3803e9c84ae315, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1.9829102
+      objectReference: {fileID: 0}
     - target: {fileID: 3556427663003738756, guid: c846a5442d16d6e48a3803e9c84ae315, type: 3}
       propertyPath: m_Name
       value: PauseCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 3556427663003738758, guid: c846a5442d16d6e48a3803e9c84ae315, type: 3}
+      propertyPath: m_ScaleFactor
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3556427663003738760, guid: c846a5442d16d6e48a3803e9c84ae315, type: 3}
       propertyPath: m_Pivot.x
