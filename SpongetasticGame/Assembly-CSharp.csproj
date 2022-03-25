@@ -87,6 +87,7 @@
     <Compile Include="Assets\Scripts\Yasemin\MenuSystem.cs" />
     <Compile Include="Assets\Scripts\Chloe\LevelScript.cs" />
     <Compile Include="Assets\Scripts\Louis\Cleanign mechanics\Sweeping.cs" />
+    <Compile Include="Assets\Scripts\Gintare\AudioForAssets.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
