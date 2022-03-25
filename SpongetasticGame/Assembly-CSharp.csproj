@@ -58,6 +58,7 @@
     <Compile Include="Assets\Scripts\Louis\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Chloe\HoverOver.cs" />
     <Compile Include="Assets\Scripts\Chloe\SwitchSprite.cs" />
+    <Compile Include="Assets\Scripts\Gintare\AudioForAssets.cs" />
     <Compile Include="Assets\Scripts\Chloe\BinScript.cs" />
     <Compile Include="Assets\Scripts\Chloe\ClickAndDrag.cs" />
     <Compile Include="Assets\Scripts\Yasemin\AudioVisuals.cs" />
@@ -87,7 +88,6 @@
     <Compile Include="Assets\Scripts\Yasemin\MenuSystem.cs" />
     <Compile Include="Assets\Scripts\Chloe\LevelScript.cs" />
     <Compile Include="Assets\Scripts\Louis\Cleanign mechanics\Sweeping.cs" />
-    <Compile Include="Assets\Scripts\Gintare\AudioForAssets.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
